@@ -1,0 +1,69 @@
+.shapka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(201, 201, 201);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.osnova {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: rgb(250, 199, 199);
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+
+.part2,
+.part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(241, 176, 35);
+}
+
+.part2 {
+    flex-grow: 1;
+}
+
+.part3 {
+    height: 25%;
+    width: 100%;
+}
+
+.bok {
+    display: flex;
+    justify-content: center;
+    flex-basis: 35%;
+    background-color: rgb(137, 218, 137);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(201, 201, 201);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
